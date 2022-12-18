@@ -20,7 +20,7 @@
       <VBox prefHeight="460.0" prefWidth="184.0">
          <children>
             <Pane prefHeight="137.0" prefWidth="184.0" />
-            <Button fx:id="createCV" mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
+            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
                <effect>
                   <Blend />
                </effect>
@@ -28,7 +28,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="list" mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
+            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
                <effect>
                   <Blend />
                </effect>
@@ -36,7 +36,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="load" mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Load">
+            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Load">
                <effect>
                   <Blend />
                </effect>
@@ -44,7 +44,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="help" mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
+            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
                <effect>
                   <Blend />
                </effect>
@@ -52,7 +52,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="exit" mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Exit">
+            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Exit">
                <effect>
                   <Blend />
                </effect>
