@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv_maker.CV_MakerController">
    <children>
       <ImageView fitHeight="460.0" fitWidth="846.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -20,7 +19,7 @@
       <VBox prefHeight="460.0" prefWidth="184.0">
          <children>
             <Pane prefHeight="137.0" prefWidth="184.0" />
-            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
+            <Button fx:id="createCVButton" mnemonicParsing="false" onAction="#openCreateMenu" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
                <effect>
                   <Blend />
                </effect>
@@ -28,7 +27,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
+            <Button fx:id="listButton" mnemonicParsing="false" onAction="#openList" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
                <effect>
                   <Blend />
                </effect>
@@ -36,7 +35,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Load">
+            <Button fx:id="loadButton" mnemonicParsing="false" onAction="#openLoad" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Load">
                <effect>
                   <Blend />
                </effect>
@@ -44,7 +43,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
+            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#openHelp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
                <effect>
                   <Blend />
                </effect>
@@ -52,7 +51,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Exit">
+            <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitApp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Exit">
                <effect>
                   <Blend />
                </effect>

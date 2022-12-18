@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv_maker.CreateCVController">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="656.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../kiMKLrraT.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="38.0" layoutY="71.0" prefHeight="278.0" prefWidth="576.0" style="-fx-background-color: white; -fx-background-radius: 10;" AnchorPane.bottomAnchor="62.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <HBox layoutX="1.0" prefHeight="290.0" prefWidth="576.0" style="-fx-background-color: 0000;">
+               <children>
+                  <VBox prefHeight="278.0" prefWidth="232.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="id:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Department:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Education:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Languages:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Abilities:">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tel Num:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tag:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="290.0" prefWidth="495.0">
+                     <children>
+                        <TextField fx:id="nameText" prefHeight="26.0" prefWidth="420.0" />
+                        <TextField fx:id="idText" prefHeight="26.0" prefWidth="366.0" />
+                        <TextField fx:id="departmentText" prefHeight="26.0" prefWidth="366.0" />
+                        <TextField fx:id="educationText" prefHeight="26.0" />
+                        <TextField fx:id="birthText" prefHeight="26.0" prefWidth="366.0" />
+                        <TextField fx:id="langueText" prefHeight="26.0" prefWidth="349.0" />
+                        <TextField fx:id="personalAText" prefHeight="26.0" prefWidth="366.0" />
+                        <TextField fx:id="addressText" prefHeight="26.0" />
+                        <TextField fx:id="telnumText" prefHeight="26.0" />
+                        <TextField fx:id="tagText" prefHeight="26.0" prefWidth="366.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      <Text fill="#3f47bc" layoutX="234.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create CV">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="477.0" layoutY="365.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="99.0" text="Save" />
+   </children>
+</AnchorPane>
