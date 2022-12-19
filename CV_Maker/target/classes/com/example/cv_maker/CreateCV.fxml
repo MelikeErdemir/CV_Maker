@@ -16,12 +16,12 @@
    <children>
       <ImageView fitHeight="411.0" fitWidth="656.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../kiMKLrraT.jpg" />
+            <Image url="@../../../v915-mynt-008.jpg" />
          </image>
       </ImageView>
       <Pane layoutX="38.0" layoutY="71.0" prefHeight="278.0" prefWidth="576.0" style="-fx-background-color: white; -fx-background-radius: 10;" AnchorPane.bottomAnchor="62.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="70.0">
          <children>
-            <HBox layoutX="1.0" prefHeight="290.0" prefWidth="576.0" style="-fx-background-color: 0000;">
+            <HBox layoutX="1.0" prefHeight="290.0" prefWidth="537.0" style="-fx-background-color: 0000;">
                <children>
                   <VBox prefHeight="278.0" prefWidth="232.0">
                      <children>
@@ -77,14 +77,14 @@
                         </Text>
                      </children>
                   </VBox>
-                  <VBox prefHeight="290.0" prefWidth="495.0">
+                  <VBox prefHeight="290.0" prefWidth="423.0">
                      <children>
                         <TextField fx:id="nameText" prefHeight="26.0" prefWidth="420.0" />
                         <TextField fx:id="idText" prefHeight="26.0" prefWidth="366.0" />
                         <TextField fx:id="departmentText" prefHeight="26.0" prefWidth="366.0" />
                         <TextField fx:id="educationText" prefHeight="26.0" />
                         <TextField fx:id="birthText" prefHeight="26.0" prefWidth="366.0" />
-                        <TextField fx:id="langueText" prefHeight="26.0" prefWidth="349.0" />
+                        <TextField fx:id="langueText" prefHeight="26.0" prefWidth="351.0" />
                         <TextField fx:id="personalAText" prefHeight="26.0" prefWidth="366.0" />
                         <TextField fx:id="addressText" prefHeight="26.0" />
                         <TextField fx:id="telnumText" prefHeight="26.0" />
@@ -98,11 +98,11 @@
             <DropShadow />
          </effect>
       </Pane>
-      <Text fill="#3f47bc" layoutX="234.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create CV">
+      <Text fill="#3f47bc" layoutX="248.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create CV">
          <font>
             <Font name="Calibri" size="30.0" />
          </font>
       </Text>
-      <Button layoutX="477.0" layoutY="365.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="99.0" text="Save" />
+      <Button fx:id="saveButton" layoutX="419.0" layoutY="359.0" mnemonicParsing="false" onAction="#addCV" prefHeight="37.0" prefWidth="110.0" text="Save" />
    </children>
 </AnchorPane>

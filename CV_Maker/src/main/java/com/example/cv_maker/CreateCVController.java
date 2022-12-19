@@ -6,4 +6,8 @@ import javafx.scene.control.Button;
 public class CreateCVController {
     @FXML
     private Button saveButton;
+    @FXML
+    private void addCV(){
+
+    }
 }

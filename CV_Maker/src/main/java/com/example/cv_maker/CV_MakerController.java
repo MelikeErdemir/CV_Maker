@@ -32,7 +32,7 @@ public class CV_MakerController {
 
     @FXML
     private void initialize() {
-        createCVButton.setOnAction((actionEvent -> CreateCV())); //Butonları ilgilendiren action bu şekilde ekleniyor
+        createCVButton.setOnAction((actionEvent -> createCV())); //Butonları ilgilendiren action bu şekilde ekleniyor
         listButton.setOnAction(actionEvent -> listCV());
         loadButton.setOnAction(actionEvent -> openLoad());
         helpButton.setOnAction(actionEvent -> getHelp());
@@ -40,7 +40,7 @@ public class CV_MakerController {
     }
 
    @FXML
-   private void CreateCV() {
+   private void createCV() {
        try {
            Parent parent = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("CreateCV.fxml")));
            Stage stage = new Stage();

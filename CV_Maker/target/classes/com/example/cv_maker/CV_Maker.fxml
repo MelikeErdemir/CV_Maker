@@ -19,7 +19,7 @@
       <VBox layoutX="2.0" prefHeight="460.0" prefWidth="183.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="0.0">
          <children>
             <Pane prefHeight="133.0" prefWidth="174.0" />
-            <Button fx:id="createCVButton" mnemonicParsing="false" onAction="#openCreateMenu" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
+            <Button fx:id="createCVButton" mnemonicParsing="false" onAction="#createCV" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
                <effect>
                   <Blend />
                </effect>
@@ -27,7 +27,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="listButton" mnemonicParsing="false" onAction="#openList" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
+            <Button fx:id="listButton" mnemonicParsing="false" onAction="#listCV" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
                <effect>
                   <Blend />
                </effect>
@@ -40,7 +40,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#openHelp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
+            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#getHelp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
                <effect>
                   <Blend />
                </effect>
