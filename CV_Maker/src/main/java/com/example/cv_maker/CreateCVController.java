@@ -43,7 +43,7 @@ public class CreateCVController {
             }
         });
     }
-    
+
     public void saveTextField()throws IOException {
         String name = nameText.getText();
         String id = idText.getText();
@@ -60,7 +60,7 @@ public class CreateCVController {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(cv, true))) {
 
             writer.write(name + "|" +id+ "|" +department+ "|" +education+ "|" +birthday+ "|" +languages+ "|" +personalab+ "|"
-                    +address+ "|" +telnum+ "|" +tag);
+                    +address+ "|" +telnum+ "|" +tag+ "\n");
 
         } catch (IOException e) {
             e.printStackTrace();
