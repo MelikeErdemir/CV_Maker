@@ -56,7 +56,11 @@ public class CreateCVController {
         String telnum = telnumText.getText();
         String tag = tagText.getText();
 
-        CV tempCv = new CV(name,id,department,education,birthday,languages,personalab,address,telnum,tag);
+        //yukarda alınan bilgiler bir sql tablosu oluşturularak insert into x x x x diye tabloya eklenicek.
+        //sql metodu buraya yazılmalı
+
+
+        //file a gerek olcağını sanmıyorum
 
         File cv = new File("saved_cv.txt");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(cv, true))) {
